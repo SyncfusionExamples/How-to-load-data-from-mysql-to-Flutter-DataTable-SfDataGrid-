@@ -1,8 +1,0 @@
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/icudtl.dat
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/flutter_windows.dll
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/NOTICES
-D:/may_2021/datagrid_sql_db/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

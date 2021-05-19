@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/example/datagrid_sql_db/BuildConfig.java
- com.example.datagrid_sql_db.BuildConfig
