@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\may_2021\datagrid_sql_db\build\windows\CMakeFiles\9aa648893dce65172dd4a0d89b46c750\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F3C98FF7-7211-3C0B-BE8C-BD722A218A40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

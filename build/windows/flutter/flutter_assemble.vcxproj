@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04F1A565-5D49-34CB-8BBD-10C5694204F5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>flutter_assemble</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\may_2021\datagrid_sql_db\build\windows\CMakeFiles\b154a869369ea423339ecd54618a7c5b\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.dll, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_export.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_messenger.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter FLUTTER_EPHEMERAL_DIR=D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_TARGET=D:\may_2021\datagrid_sql_db\lib\main.dart DART_DEFINES=flutter.inspector.structuredErrors%%3Dtrue DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\may_2021\datagrid_sql_db\.dart_tool\package_config.json C:/Users/RenugadeviSadagoban/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\may_2021\datagrid_sql_db\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.dll, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_export.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_messenger.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter FLUTTER_EPHEMERAL_DIR=D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_TARGET=D:\may_2021\datagrid_sql_db\lib\main.dart DART_DEFINES=flutter.inspector.structuredErrors%%3Dtrue DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\may_2021\datagrid_sql_db\.dart_tool\package_config.json C:/Users/RenugadeviSadagoban/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\may_2021\datagrid_sql_db\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.dll, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_export.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_windows.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_messenger.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/may_2021/datagrid_sql_db/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_ROOT=C:\Users\RenugadeviSadagoban\flutter FLUTTER_EPHEMERAL_DIR=D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral PROJECT_DIR=D:\may_2021\datagrid_sql_db FLUTTER_TARGET=D:\may_2021\datagrid_sql_db\lib\main.dart DART_DEFINES=flutter.inspector.structuredErrors%%3Dtrue DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\may_2021\datagrid_sql_db\.dart_tool\package_config.json C:/Users/RenugadeviSadagoban/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\may_2021\datagrid_sql_db\build\windows\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\may_2021\datagrid_sql_db\build\windows\CMakeFiles\90f31f5889a6ecb6197e58f208d1ee1f\flutter_assemble.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.dll;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_export.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_windows.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_messenger.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\may_2021\datagrid_sql_db\windows\flutter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/may_2021/datagrid_sql_db/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/may_2021/datagrid_sql_db/windows -BD:/may_2021/datagrid_sql_db/build/windows --check-stamp-file D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/may_2021/datagrid_sql_db/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/may_2021/datagrid_sql_db/windows -BD:/may_2021/datagrid_sql_db/build/windows --check-stamp-file D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/may_2021/datagrid_sql_db/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/may_2021/datagrid_sql_db/windows -BD:/may_2021/datagrid_sql_db/build/windows --check-stamp-file D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\may_2021\datagrid_sql_db\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\may_2021\datagrid_sql_db\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\may_2021\datagrid_sql_db\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{623F0322-9126-3CE6-A76F-7F78539F4732}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

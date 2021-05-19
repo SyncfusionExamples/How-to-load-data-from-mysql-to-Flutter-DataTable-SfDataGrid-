@@ -1,0 +1,10 @@
+D:/may_2021/datagrid_sql_db/build/windows/CMakeFiles/INSTALL.dir
+D:/may_2021/datagrid_sql_db/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/may_2021/datagrid_sql_db/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/may_2021/datagrid_sql_db/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/may_2021/datagrid_sql_db/build/windows/runner/CMakeFiles/datagrid_sql_db.dir
+D:/may_2021/datagrid_sql_db/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/may_2021/datagrid_sql_db/build/windows/runner/CMakeFiles/ALL_BUILD.dir
