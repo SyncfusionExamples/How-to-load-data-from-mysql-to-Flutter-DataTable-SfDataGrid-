@@ -189,5 +189,7 @@ Wrap the SfDataGrid inside the FutureBuilder widget. Initialize the SfDataGrid w
   }
   ```
 
-
+<img alt="Load data from sql to flutter DataTable "  src="https://www.syncfusion.com/uploads/user/kb/flut/flut-4749/flut-4749_img1.gif" width="300" height="400" />
+ 
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/12615/how-to-load-data-from-mysql-to-flutter-datatable-sfdatagrid)**
 
