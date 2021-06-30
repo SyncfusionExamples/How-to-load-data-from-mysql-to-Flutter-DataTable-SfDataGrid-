@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   List<GridColumn> getColumns() {
     return <GridColumn>[
-      GridTextColumn(
+      GridColumn(
           columnName: 'id',
           width: 70,
           label: Container(
@@ -64,14 +64,14 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 'ID',
               ))),
-      GridTextColumn(
+      GridColumn(
           columnName: 'name',
           width: 80,
           label: Container(
               padding: EdgeInsets.all(8.0),
               alignment: Alignment.center,
               child: Text('Name'))),
-      GridTextColumn(
+      GridColumn(
           columnName: 'designation',
           width: 120,
           label: Container(
@@ -81,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 'Designation',
                 overflow: TextOverflow.ellipsis,
               ))),
-      GridTextColumn(
+      GridColumn(
           columnName: 'salary',
           label: Container(
               padding: EdgeInsets.all(8.0),
