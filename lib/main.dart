@@ -27,17 +27,17 @@ class MyApp extends StatelessWidget {
 /// The home page of the application which hosts the datagrid.
 class MyHomePage extends StatefulWidget {
   /// Creates the home page.
-  MyHomePage({Key key}) : super(key: key);
+  const MyHomePage({super.key});
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  EmployeeDataSource employeeDataSource;
-  List<GridColumn> _columns;
+  late EmployeeDataSource employeeDataSource;
+  late List<GridColumn> _columns;
 
-  Future<dynamic> generateEmployeeList() async {
+  Future<Object> generateEmployeeList() async {
     // Give your PHP URL. It may be online URL o local host URL.
     // Follow the steps provided in the below KB to configure the mysql using
     // XAMPP and get the local host php link,
@@ -169,7 +169,11 @@ class Employee {
   String designation;
   int salary;
 
-  Employee({this.id, this.firstName, this.designation, this.salary});
+  Employee(
+      {required this.id,
+      required this.firstName,
+      required this.designation,
+      required this.salary});
 
   factory Employee.fromJson(Map<String, dynamic> json) {
     return Employee(
@@ -182,7 +186,7 @@ class Employee {
 
 class MyHttpOverrides extends HttpOverrides {
   @override
-  HttpClient createHttpClient(SecurityContext context) {
+  HttpClient createHttpClient(SecurityContext? context) {
     return super.createHttpClient(context)
       ..badCertificateCallback =
           (X509Certificate cert, String host, int port) => true;
